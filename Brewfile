@@ -1,0 +1,120 @@
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "github/bootstrap"
+tap "github/packages"
+tap "go-delve/delve"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+brew "adr-tools"
+brew "autoconf"
+brew "automake"
+brew "aws-iam-authenticator"
+brew "openssl@1.1"
+brew "readline"
+brew "sqlite"
+brew "awscli"
+brew "cmake"
+brew "cocoapods"
+brew "container-diff"
+brew "coreutils", link: false
+brew "direnv"
+brew "docker", link: false
+brew "docker-machine"
+brew "elasticsearch@2.4", restart_service: true
+brew "elixir"
+brew "exercism"
+brew "gifsicle"
+brew "git-lfs"
+brew "go"
+brew "glide"
+brew "libksba"
+brew "gnupg"
+brew "go@1.10"
+brew "icu4c"
+brew "libtool"
+brew "graphviz"
+brew "hivemind"
+brew "hyperscan"
+brew "libheif"
+brew "imagemagick"
+brew "imagemagick@6", link: true
+brew "jansson"
+brew "jemalloc"
+brew "jq"
+brew "node"
+brew "jupyterlab"
+brew "kubernetes-cli"
+brew "kustomize"
+brew "launch_socket_server", restart_service: true
+brew "launchdns", restart_service: true
+brew "lcov"
+brew "libsodium"
+brew "libyaml"
+brew "mackup"
+brew "mas"
+brew "md5sha1sum"
+brew "memcached", restart_service: true
+brew "mkcert"
+brew "protobuf"
+brew "mysql"
+brew "mysql@5.7", restart_service: true
+brew "nginx", restart_service: true
+brew "pkg-config"
+brew "node-build"
+brew "nodenv"
+brew "nss"
+brew "tmux"
+brew "overmind"
+brew "pidof"
+brew "postgresql", restart_service: true
+brew "postgresql@11"
+brew "pyenv"
+brew "python@2"
+brew "rakudo-star"
+brew "ruby-build"
+brew "rbenv"
+brew "redis", restart_service: true
+brew "ripgrep"
+brew "socat"
+brew "softhsm"
+brew "sphinx-doc"
+brew "ssdeep"
+brew "starship"
+brew "the_silver_searcher"
+brew "tree"
+brew "watchman"
+brew "yarn"
+brew "youtube-dl"
+brew "zlib"
+brew "zsh"
+brew "github/bootstrap/kubectl@1.14"
+brew "github/bootstrap/kustomize@2.0"
+brew "github/packages/awssume"
+brew "mongodb/brew/mongodb-community"
+cask "aerial"
+cask "chromedriver"
+cask "db-browser-for-sqlite"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "graphiql"
+cask "java"
+cask "java8"
+cask "kap"
+cask "wkhtmltopdf"
+mas "Amphetamine", id: 937984704
+mas "Bear", id: 1091189122
+mas "Dato", id: 1470584107
+mas "DeskCover", id: 1257711898
+mas "GIF Brewery 3", id: 1081413713
+mas "iMovie", id: 408981434
+mas "Ka-Block!", id: 1335413823
+mas "Lightshot Screenshot", id: 526298438
+mas "Playgrounds", id: 1496833156
+mas "Slack", id: 803453959
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
